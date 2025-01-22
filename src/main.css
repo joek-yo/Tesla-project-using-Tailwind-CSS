@@ -19,7 +19,7 @@ html {
 }
 
 .car_section {
-  @apply w-full h-screen;
+  @apply w-full h-screen relative;
 }
 
 .car_img {
@@ -55,5 +55,5 @@ html {
 }
 
 .down_svg {
-  @apply block w-full h-20 mx-auto absolute top-[93%] animate-bounce
+  @apply block w-full h-20 mx-auto absolute top-[93%] animate-bounce;
 }
